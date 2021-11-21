@@ -7379,6 +7379,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+sweetalert2@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.2.0.tgz#85f3e7043af07cba4df0b5ec12b2c1ce5d440977"
+  integrity sha512-KqvneLjlbM3JclVJ81GLqlElGZGeXEYpybYlcDkL99Pf1DrVW/VyaRu7BP8K0D+9XgXuJUg1huV1rel4Ud+8JQ==
+
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
@@ -7782,6 +7787,11 @@ vue-loader@^15.9.8:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
+  integrity sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==
 
 vue-style-loader@^4.1.0:
   version "4.1.3"

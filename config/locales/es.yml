@@ -1,0 +1,37 @@
+es:
+  active_record:
+    errors:
+      messages:
+        blank: no puede estar en blanco
+        empty: no puede estar vacío
+        invalid: no es válido
+        required: debe existir
+        taken: ya está en uso
+        too_long:
+          one: es demasiado largo (1 carácter máximo)
+          other: es demasiado largo (%{count} caracteres máximo)
+        too_short:
+          one: es demasiado corto (1 carácter mínimo)
+          other: es demasiado corto (%{count} caracteres mínimo)
+    messages:
+      created: "%{model} creado correctamente."
+      updated: "%{model} editado correctamente."
+      destroyed: "%{model} eliminado correctamente."
+    models:
+      address:
+        one: Dirección
+        other: Direcciones
+    attributes:
+      address:    
+        name: Nombre
+        last_name: Apellido
+        postal_code: Código postal
+        country: País
+        state: Estado
+        municipality: Municipio / Delegación
+        city: Ciudad
+        colony: Colonia
+        street: Calle
+        external_number: Número exterior
+        internal_number: Número interior
+

@@ -1,17 +1,9 @@
 <template>
-  
-  <div id="app">
-    <nav-bar/>
-    <router-view/>
-  </div>
+    <div>{{message}}</div>
 </template>
-
 <script>
-
-
 export default {
   data: function () {
-
     return {
       message: "Hello Vue!"
     }

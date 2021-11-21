@@ -9,7 +9,10 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
 import "../stylesheets/application"
+import * as Routes from 'routes.js.erb';
 import axios from 'axios';
+import Swal from 'sweetalert2';
+
 
 axios.defaults.headers.common['X-CSRF-TOKEN'] = Rails.csrfToken();
 Rails.start()
@@ -22,5 +25,6 @@ ActiveStorage.start()
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-import * as Routes from 'routes.js.erb';
+window.axios = axios
+window.Swal = Swal;
 window.Routes = Routes;
